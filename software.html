@@ -12,28 +12,33 @@
     <nav class="sidebar">
         
         <header>
-            <h2>Table of Contents</h1>
+            <h1>Table of Contents</h1>
         </header>
         <ul>
-            <li><a href="#software-eng">1. What is Software Engineering?</a></li>
-            <li><a href="#sdlc">2. What is SDLC?</a></li>
-            <li><a href="#waterfall">3. Classic Waterfall Model</a></li>
-            <li><a href="#quiz">4. Quiz</a></li>
-            <li><a href="#iterative">5. Iterative Waterfall Model</a></li>
-            <li><a href="#VSHAPED">6. V Shaped Model</a></li>
-            <li><a href="#Prototype">7. Prototype Model</a></li>
-            <li><a href="#Incremental">8. Incremental Model</a></li>
-            <li><a href="#Evolutionary">9. Evolutionary Model</a></li>
-            <li><a href="#Spiral">9. Spiral Model</a></li>
-            <li><a href="#Agile">11. Agile Model</a></li>
+            <li><a href="#software-eng">1.Software Engineering</a></li>
+            <li><a href="#requirements">2.Software Requirements</a></li>
+            <li><a href="#srs">3.SRS,Functional & Non Functional Requirements,User Requirements</a></li>
 
+            <li><a href="#sdlc">3.Software Development lifecycle</a></li>
 
+            <li><a href="#waterfall">4. Classic Waterfall Model</a></li>
+            <li><a href="#quiz">5. Quiz</a></li>
+            <li><a href="#iterative">6. Iterative Waterfall Model</a></li>
+            <li><a href="#VSHAPED">7. V Shaped Model</a></li>
+            <li><a href="#Prototype">8. Prototype Model</a></li>
+            <li><a href="#Incremental">9. Incremental Model</a></li>
+            <li><a href="#Evolutionary">10. Evolutionary Model</a></li>
+            <li><a href="#Spiral">11. Spiral Model</a></li>
+            <li><a href="#Agile">12. Agile Model</a></li>
+            <li><a href="#Scrum">13. Scrum Model</a></li>
             
         </ul>
     </nav>
 
     <main>
-        <section id="software-eng">
+
+        <section id="software-eng"></section>
+            <div class="details">
             <h2>What is Software Engineering?</h2>
             <p>Software engineering is a field of engineering & writing programs for computers. A software engineer writes softwares and compiles software using methods that proves it. Software Engineering process is model chosen for managing creation of software from initial-scale
                 to final product. It is a process of developing software in a planned and structured way.
@@ -41,19 +46,63 @@
             <p>ANALYSIS-> DESIGN -> CODING ->TESTING ->MAINTAINENCE</p>
             <h3>ONE LINE DESCRIPTION</h3>
             <p>It is a systemetic ,disciplined,cost effective technique for software development.Engineering approach to develop a software</p>
+        </div>
+        </section>
+
+        <section id="requirements">
+            <div class="details">
+            <h2>Software Requirements</h2>
+            <p>Features and functionalities of a target systems.Means what the system should do..</p>
+            <h3>It is a 4 step process</h3>
+            <p>FEASIBILITY STUDY- Study if the system is feasible or not</p>
+            <p>REQUIREMENT GATHERING- gathering info from client</p>
+            <p>SRS(Software Requirements & Specification)-Description of software</p>
+            <p>SOFTWARE REQUIREMENT VALIDATION-Check accuracy & validate</p>    
+            </div>
+        </section>
+
+        <section id="srs">
+            <div class="details">
+            <h2>Software Requirements & Specification</h2>
+            <p>Features and functionalities of a target systems.Means what the system should do..</p>
+            <h3>SRS structure</h3>
+            <p>INTRO- Purpose,Audience,Scope,Definitions,Reference</p>
+            <p>DESCRIPTION- User Interface, System Interface, Assumptions,User Characteristics </p>
+            <p>SYSTEM FEATURE AND REQUIREMENTS-Functional Requirements,Use Case,Logical Database,Non Functional Requirements[safety,secuirity]</p>
+            <p>DELIVER FOR APPROVAL</p>    
+
+            <h2>Functional & Non Functional Requirements</h2>
+            <div class="details">
+
+            <p>Functional Requirements- What the system should do? (Working of the system)</p>
+            <p>Non Functional Requirements- How the system should do? (Secuirity,storage,performance,Disaste Recovery,Flexibility,Accesibility)</p></div>
+
+            <h2>User Requirements</h2>
+            <div class="details">
+            <p>User Requirements- What the user wants from the system?</p>
+            <p>Easy & Simple to Operate</p>
+            <p>Quick Response</p>
+            <p>Effective Error Handling</p>
+            <p>Customer Support</p>
+            </div>
+            
+            </div>
         </section>
 
         <section id="sdlc">
+            <div class="details">
             <h2>SOFTWARE DEVELOPMENT LIFE CYCLE?</h2>
             <p>Software development lifecycle is a systematic approach to software development, encompassing planning, analysis, design, coding, testing, deployment, and maintenance. It ensures quality, efficiency, and adherence to requirements throughout the software lifecycle.</p>
             <p>PLANNING -> DEFINING -> DESIGNING -> CODING ->TESTING ->MAINTAINENCE</p>
             <h3>Diagram</h3>
                 <img src="https://datarob.com/content/images/2019/08/SDLC-stages.png" alt="Waterfall Model Diagram" class="image-style">
+            </div>    
         </section>
 
         <section id="waterfall">
-            <h2>Classic Waterfall Model</h2>
+            
             <div class="details">
+                <h2>Classic Waterfall Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/002/986/original/waterfall_method.png?1647523766" alt="Waterfall Model Diagram" class="image-style">
                 <h3>Explanation</h3>
@@ -73,6 +122,7 @@
             </div> 
         </section>
         <section id="quiz">
+            <div class="details">
             <h2>Quiz</h2>
             <button id="startQuiz">Start Quiz</button>
             <div id="quizQuestions" style="display: none;">
@@ -87,11 +137,13 @@
                 <h3 id="resultTitle">Results</h3>
                 <p id="resultText"></p>
               </div>
+            </div>
         </section>
 
         <section id="iterative">
-            <h2>Iterative Waterfall Model</h2>
+            
             <div class="details">
+                <h2>Iterative Waterfall Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://slideplayer.com/slide/14117745/86/images/33/Iterative+Waterfall+Model+%28CONT.%29.jpg" alt="Iterative Model Diagram" class="image-style">
                 <h3>Iterative Waterfall Model is a hybrid approach that combines the sequential nature of the classic Waterfall model with the flexibility of iterative development. 
@@ -114,8 +166,9 @@
         </section>
 
         <section id="VSHAPED">
-            <h2>V SHAPED MODEL</h2>
             <div class="details">
+            <h2>V SHAPED MODEL</h2>
+
                 <h3>Diagram</h3>
                 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231030123258/software-Testing-Tutorial-SDLC-V-model.webp" class="image-style">
                 <h3>The V-shaped model is a software development lifecycle (SDLC) model that emphasizes testing throughout the development process. It follows a V-shape, with each development phase on one side and its corresponding testing phase on the other. The model ensures that testing is integrated early in the development cycle, leading to better quality and reduced risks.</h3>
@@ -146,8 +199,9 @@
 
 
         <section id="Prototype">
-            <h2>Prototype Model</h2>
+            
             <div class="details">
+                <h2>Prototype Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgRSOg8fzriaSV88x8JXJogCCuanVCSqlnQ&s" alt="Iterative Model Diagram" class="image-style">
                 <h3>The Prototype Model is a software development lifecycle (SDLC) model that emphasizes early user feedback and iterative development.
@@ -176,8 +230,9 @@
         </section>
 
         <section id="Incremental">
-            <h2>Incremental Model</h2>
+            
             <div class="details">
+                <h2>Incremental Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://javatpoint-images.s3.eu-north-1.amazonaws.com/tutorial/software-engineering/images/software-engineering-incremental-model.jpg" alt="Iterative Model Diagram" class="image-style">
                 <h3>The Incremental Model is a software development lifecycle (SDLC) model that emphasizes iterative development and delivery of working software. 
@@ -196,8 +251,9 @@
         </section>
 
         <section id="Evolutionary"></section>
-            <h2>Evolutionary Model</h2>
+            
             <div class="details">
+                <h2>Evolutionary Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/652f845ccf529_5.jpg?d=2000x2000" alt="Iterative Model Diagram" class="image-style">
                 <h3>The Evolutionary Model is a software development lifecycle (SDLC) model that emphasizes iterative development and continuous improvement. 
@@ -220,8 +276,9 @@
         </section>
 
         <section id="Spiral"></section>
-            <h2>Spiral Model</h2>
+            
             <div class="details">
+                <h2>Spiral Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://cdn.ttgtmedia.com/rms/onlineimages/whatis-spiral_model_half_column_mobile.png" alt="Iterative Model Diagram" class="image-style">
                 <h3>The Spiral Model is a software development lifecycle (SDLC) model that combines elements of the Waterfall, Prototyping, 
@@ -248,8 +305,9 @@
 
 
         <section id="Agile"></section>
-            <h2>Agile Model</h2>
+            
             <div class="details">
+                <h2>Agile Model</h2>
                 <h3>Diagram</h3>
                 <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/02/Phases-of-Agile-Model-825x1024.png" alt="Iterative Model Diagram" class="image-style">
                 <h3>The Agile Model is a software development approach that emphasizes iterative development, customer collaboration, and continuous improvement. It is based on a set of principles and practices that aim to deliver high-quality software quickly and efficiently.</h3>
@@ -272,14 +330,40 @@
             </div>
         </section>
 
-        
+        <section id="Scrum">
+            
+            <div class="details">
+                <h2>Scrum Model</h2>
+                <h3>Diagram</h3>
+                <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/02/Phases-of-Agile-Model-825x1024.png" alt="Iterative Model Diagram" class="image-style">
+                <h3>Scrum is a popular Agile framework used for managing complex projects, especially in software development.
+                     It emphasizes iterative development, collaboration, and flexibility.</h3>
+                <p>Here's a breakdown of the Spiral Model:</p>
+                    <h4>Sprints: These are time-boxed iterations, typically 2-4 weeks long, during which a specific set of features or tasks are completed.</h4>
+                    <h4>Product Backlog: This is a prioritized list of all the features or functionalities that need to be developed for the product.</h4>
+                    <h4>Sprint Backlog: This is a subset of the Product Backlog that is selected for development during a specific Sprint.</h4>
+                    <h4>Daily Scrum: This is a daily 15-minute meeting where the team discusses their progress, identifies impediments, and plans for the next day.</h4>
+                    <h4> Sprint Review: This is a meeting at the end of each Sprint where the team demonstrates the completed work to stakeholders and gathers feedback.</h4>
+                    <h4>Sprint Retrospective: This is a meeting at the end of each Sprint where the team reflects on their performance and identifies areas for improvement.</h4>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Freedom</p>
+                <p>2)High Product Quality & Low Risk</p>
+                <p>3)Reduced development time</p>
+                <p>4)Review current sprint & go to next</p>
+                
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)Not efficient for big teams</p>
+                <p>2)No changes can be done once sprint done</p>
+            </div>
+        </section>
 
-        
+         
     </main>
-
-    <!--<footer>
+    <footer>
         <p>Designed by Shaunak Ghosh</p>
-    </footer>-->
+    </footer>
 
     <script src="js/script1.js"></script>
 </body>
