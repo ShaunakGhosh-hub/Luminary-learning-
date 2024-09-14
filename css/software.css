@@ -121,4 +121,45 @@ h4{
 
 
 }
+/* Add the following code to make it responsive */
 
+/* Mobile devices (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+  /* Adjust the sidebar width and position */
+  nav.sidebar {
+    width: 100%; /* Take up the full width on mobile */
+    position: relative; /* Change from fixed to relative */
+    top: auto; /* Remove fixed top position */
+    left: auto; /* Remove fixed left position */
+    height: auto; /* Remove fixed height */
+    padding-top: 0; /* Remove padding top */
+  }
+
+  /* Adjust the main content margin */
+  main {
+    margin-left: 0; /* Remove margin left */
+    padding: 20px; /* Keep the padding */
+  }
+
+  /* Adjust the image style */
+  .image-style {
+    width: 100%; /* Take up the full width on mobile */
+    margin: 10px; /* Reduce margin */
+  }
+
+  /* Adjust the footer position */
+  footer {
+    position: relative; /* Change from fixed to relative */
+    bottom: auto; /* Remove fixed bottom position */
+  }
+}
+
+/* Tablet devices (max-width: 1024px) */
+@media only screen and (max-width: 1024px) {
+  /* You can add more styles here if needed */
+}
+
+/* Desktop devices (min-width: 1025px) */
+@media only screen and (min-width: 1025px) {
+  /* You can add more styles here if needed */
+}
