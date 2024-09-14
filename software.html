@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterfall Model</title>
+    <link rel="stylesheet" href="css/software.css">
+</head>
+<body>
+    
+
+    <nav class="sidebar">
+        
+        <header>
+            <h2>Table of Contents</h1>
+        </header>
+        <ul>
+            <li><a href="#software-eng">1. What is Software Engineering?</a></li>
+            <li><a href="#sdlc">2. What is SDLC?</a></li>
+            <li><a href="#waterfall">3. Classic Waterfall Model</a></li>
+            <li><a href="#quiz">4. Quiz</a></li>
+            <li><a href="#iterative">5. Iterative Waterfall Model</a></li>
+            <li><a href="#VSHAPED">6. V Shaped Model</a></li>
+            <li><a href="#Prototype">7. Prototype Model</a></li>
+            <li><a href="#Incremental">8. Incremental Model</a></li>
+            <li><a href="#Evolutionary">9. Evolutionary Model</a></li>
+            <li><a href="#Spiral">9. Spiral Model</a></li>
+            <li><a href="#Agile">11. Agile Model</a></li>
+
+
+            
+        </ul>
+    </nav>
+
+    <main>
+        <section id="software-eng">
+            <h2>What is Software Engineering?</h2>
+            <p>Software engineering is a field of engineering & writing programs for computers. A software engineer writes softwares and compiles software using methods that proves it. Software Engineering process is model chosen for managing creation of software from initial-scale
+                to final product. It is a process of developing software in a planned and structured way.
+            </p>
+            <p>ANALYSIS-> DESIGN -> CODING ->TESTING ->MAINTAINENCE</p>
+            <h3>ONE LINE DESCRIPTION</h3>
+            <p>It is a systemetic ,disciplined,cost effective technique for software development.Engineering approach to develop a software</p>
+        </section>
+
+        <section id="sdlc">
+            <h2>SOFTWARE DEVELOPMENT LIFE CYCLE?</h2>
+            <p>Software development lifecycle is a systematic approach to software development, encompassing planning, analysis, design, coding, testing, deployment, and maintenance. It ensures quality, efficiency, and adherence to requirements throughout the software lifecycle.</p>
+            <p>PLANNING -> DEFINING -> DESIGNING -> CODING ->TESTING ->MAINTAINENCE</p>
+            <h3>Diagram</h3>
+                <img src="https://datarob.com/content/images/2019/08/SDLC-stages.png" alt="Waterfall Model Diagram" class="image-style">
+        </section>
+
+        <section id="waterfall">
+            <h2>Classic Waterfall Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://d3n0h9tb65y8q.cloudfront.net/public_assets/assets/000/002/986/original/waterfall_method.png?1647523766" alt="Waterfall Model Diagram" class="image-style">
+                <h3>Explanation</h3>
+                <p>The classic waterfall model is a linear SDLC model where each phase is completed before moving to the next. 
+                    It follows a sequential flow: requirements gathering, design, coding, testing, and maintenance.
+                     While simple to understand and manage, it can be inflexible, making it difficult to accommodate changes during development.</p>
+                <h3>Advantages</h3>
+                <p>1)Base Model</p>
+                <p>2)Simple & Easy</p>
+                <p>3)Can be used in small projects</p>
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include</p>
+                <p>1)No experience</p>    
+                <p>2)No feedback</p>
+                <p>3)No parallelism doing more than one work at same time</p>
+                <p>4)High Risk</p>
+            </div> 
+        </section>
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <button id="startQuiz">Start Quiz</button>
+            <div id="quizQuestions" style="display: none;">
+                <h3 id="questionTitle"></h3>
+                <p id="questionText"></p>
+                <ul id="options">
+                </ul>
+                <button id="nextQuestion">Next Question</button>
+                <button id="submitAnswer">Submit Answer</button>
+              </div>
+              <div id="results" style="display: none;">
+                <h3 id="resultTitle">Results</h3>
+                <p id="resultText"></p>
+              </div>
+        </section>
+
+        <section id="iterative">
+            <h2>Iterative Waterfall Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://slideplayer.com/slide/14117745/86/images/33/Iterative+Waterfall+Model+%28CONT.%29.jpg" alt="Iterative Model Diagram" class="image-style">
+                <h3>Iterative Waterfall Model is a hybrid approach that combines the sequential nature of the classic Waterfall model with the flexibility of iterative development. 
+                    It divides the project into smaller, manageable iterations, each following the Waterfall phases (requirements, design, coding, testing). 
+                    After each iteration, FEEDBACK is incorporated into the subsequent ones, allowing for adjustments and improvements based on early results. 
+                    This provides more flexibility and adaptability compared to the traditional Waterfall model.</h3>
+                <p>Unlike the Classic model ...</p>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Base Model</p>
+                <p>2)Simple & Easy</p>
+                <p>3)Can be used in small projects</p>
+                <p>4)Feedback Present</p>
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)No phase overlapping</p>
+                <p>2)Rigid & No Prototype </p>
+                <p>3)Less Customer Interaction</p>
+            </div>
+        </section>
+
+        <section id="VSHAPED">
+            <h2>V SHAPED MODEL</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231030123258/software-Testing-Tutorial-SDLC-V-model.webp" class="image-style">
+                <h3>The V-shaped model is a software development lifecycle (SDLC) model that emphasizes testing throughout the development process. It follows a V-shape, with each development phase on one side and its corresponding testing phase on the other. The model ensures that testing is integrated early in the development cycle, leading to better quality and reduced risks.</h3>
+                <p>Here's a breakdown of the V-shaped model:</p>
+                <h4>Requirements Analysis: This phase defines the requirements for the software.</h4>
+                <h4>System Design: The overall system architecture and design are created.</h4>
+                <h4>High-Level Design: The system is broken down into smaller components or modules.</h4>
+                <h4>Low-Level Design: Detailed designs for each component are created.</h4>
+                <h4>Coding: The actual coding of the software begins.</h4>
+                <h4>Unit Testing: Individual components or modules are tested to ensure they function correctly.</h4>
+                <h4>Integration Testing: Multiple components are integrated and tested together.</h4>
+                <h4>System Testing: The entire system is tested to verify that it meets the specified requirements.</h4>
+                <h4>Acceptance Testing: The software is tested by the end-users to ensure it meets their needs.</h4>
+               
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Every component testable</p>
+                <p>2)Time Saving & Good understanding on project</p>
+                <p>3)Progree tracked easily</p>
+                <p>4)Proactive defect tracked through testingt</p>
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)No feedback</p>
+                <p>2)No risk analysis </p>
+                <p>3)not good for big object oriented programming</p>
+            </div>
+        </section>
+
+
+        <section id="Prototype">
+            <h2>Prototype Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgRSOg8fzriaSV88x8JXJogCCuanVCSqlnQ&s" alt="Iterative Model Diagram" class="image-style">
+                <h3>The Prototype Model is a software development lifecycle (SDLC) model that emphasizes early user feedback and iterative development.
+                     In this model, a working prototype of the software is created early in the development process, allowing stakeholders to see and interact 
+                     with the product. This feedback is then used to refine and improve the prototype until it meets the desired requirements.</h3>
+                     <p>Here's a breakdown of the Prototype Model:</p>
+                     <h4>Define Requirements: Basic requirements are gathered from stakeholders.</h4>
+                     <h4>Create Prototype: A working prototype is developed based on the initial requirements.</h4>
+                     <h4>Evaluate Prototype: Stakeholders evaluate the prototype and provide feedback.</h4>
+                     <h4>Revise Prototype: The prototype is revised based on the feedback and additional requirements.</h4>
+                     <h4>Repeat Steps 3-4: The process of evaluation and revision continues until the prototype meets the desired requirements.</h4>
+                     <h4>Develop Final Product: The final product is developed based on the refined prototype.</h4>
+                <p>Unlike the Classic model ...</p>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)helps when customer is not clear with idea</p>
+                <p>2)Good for technical & requirement risk</p>
+                <p>3)No misunderstanding</p>
+                <p>4)Feedback Present</p>
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)Expensive</p>
+                <p>2)User may get bored</p>
+                <p>3)Extra time & money</p>
+            </div>
+        </section>
+
+        <section id="Incremental">
+            <h2>Incremental Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://javatpoint-images.s3.eu-north-1.amazonaws.com/tutorial/software-engineering/images/software-engineering-incremental-model.jpg" alt="Iterative Model Diagram" class="image-style">
+                <h3>The Incremental Model is a software development lifecycle (SDLC) model that emphasizes iterative development and delivery of working software. 
+                    In this model, the project is divided into smaller, manageable increments, each of which delivers a working subset of the final product.
+                     This allows for early delivery of value to the customer and provides opportunities for feedback and adjustments based on early results.</h3>
+                <p>Unlike the Classic model ...</p>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Model by model working</p>
+                <p>2)interaction maximum</p>
+                <p>3)Large projects</p>
+                <p>4)Early release project demand</p>
+                <p>3)Flexible Change</p>
+                <p>4)Used in phone apps</p>
+            </div>
+        </section>
+
+        <section id="Evolutionary"></section>
+            <h2>Evolutionary Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/652f845ccf529_5.jpg?d=2000x2000" alt="Iterative Model Diagram" class="image-style">
+                <h3>The Evolutionary Model is a software development lifecycle (SDLC) model that emphasizes iterative development and continuous improvement. 
+                    It is similar to the Incremental Model, but with a stronger focus on evolution and adaptation throughout the development process.There are no long term plans</h3>
+                <p>Unlike the Classic model ...</p>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Customer requirement specified</p>
+                <p>2)Support changing enviornment</p>
+                <p>3)Risk Analysis Better</p>
+                <p>4)Initial Operating tims less </p>
+                <p>3)used in critical projects</p>
+                <p>4)Used in phone apps</p>
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)Not for small projects</p>
+                <p>2)High cost</p>
+                <p>3)High skilled personnel required</p>
+            </div>
+        </section>
+
+        <section id="Spiral"></section>
+            <h2>Spiral Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://cdn.ttgtmedia.com/rms/onlineimages/whatis-spiral_model_half_column_mobile.png" alt="Iterative Model Diagram" class="image-style">
+                <h3>The Spiral Model is a software development lifecycle (SDLC) model that combines elements of the Waterfall, Prototyping, 
+                    and Incremental models. It is a risk-driven approach that emphasizes iterative development, risk management, and early prototyping.</h3>
+                <p>Here's a breakdown of the Spiral Model:</p>
+                    <h4>Determine Objectives: The overall objectives and constraints of the project are defined.</h4>
+                    <h4>Evaluate Risks: Potential risks are identified and assessed.</h4>
+                    <h4>Develop and Verify Next-Level Product: A prototype or increment of the software is developed and tested.</h4>
+                    <h4>Review & plan next phase of the product.</h4>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Risk Handling</p>
+                <p>2)Large projects</p>
+                <p>3)Flexible</p>
+                <p>4)Customer Satisfaction</p>
+                
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)complex</p>
+                <p>2)Expensive</p>
+                <p>3)More time beacuse too much risk analysis</p>
+            </div>
+        </section>
+
+
+        <section id="Agile"></section>
+            <h2>Agile Model</h2>
+            <div class="details">
+                <h3>Diagram</h3>
+                <img src="https://www.interviewbit.com/blog/wp-content/uploads/2022/02/Phases-of-Agile-Model-825x1024.png" alt="Iterative Model Diagram" class="image-style">
+                <h3>The Agile Model is a software development approach that emphasizes iterative development, customer collaboration, and continuous improvement. It is based on a set of principles and practices that aim to deliver high-quality software quickly and efficiently.</h3>
+                <p>Here's a breakdown of the Spiral Model:</p>
+                    <h4>Individuals and interactions over processes and tools: Prioritize people and their relationships over rigid processes and tools.</h4>
+                    <h4>Working software over comprehensive documentation: Focus on delivering working software rather than excessive documentation.</h4>
+                    <h4>Customer collaboration over contract negotiation: Collaborate with customers throughout the development process to ensure the product meets their needs.</h4>
+                    <h4>Responding to change over following a plan: Be flexible and adaptable to changes in requirements or circumstances.</h4>
+                <h3>Advantages</h3>
+                <p>Advantages include ...</p>
+                <p>1)Frequent Delivery</p>
+                <p>2)Face to Face Communication</p>
+                <p>3)Changes</p>
+                <p>4)Time</p>
+                
+                <h3>Disadvantages</h3>
+                <p>Disadvantages include ...</p>
+                <p>1)Less Documentation</p>
+                <p>2)Maintenance problem</p>
+            </div>
+        </section>
+
+        
+
+        
+    </main>
+
+    <!--<footer>
+        <p>Designed by Shaunak Ghosh</p>
+    </footer>-->
+
+    <script src="js/script1.js"></script>
+</body>
+</html>
+demand
