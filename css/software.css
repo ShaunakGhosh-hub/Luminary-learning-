@@ -12,7 +12,6 @@ header {
     left: 0;
     width: 20%; /* match the width of the sidebar */
     height: 60px; /* adjust the height as needed */
-    background-color: #050303fe;
     color: rgb(255, 13, 13);
     padding: 0;
     text-align: center;
@@ -121,45 +120,32 @@ h4{
 
 
 }
-/* Add the following code to make it responsive */
 
-/* Mobile devices (max-width: 768px) */
-@media only screen and (max-width: 768px) {
-  /* Adjust the sidebar width and position */
-  nav.sidebar {
-    width: 100%; /* Take up the full width on mobile */
-    position: relative; /* Change from fixed to relative */
-    top: auto; /* Remove fixed top position */
-    left: auto; /* Remove fixed left position */
-    height: auto; /* Remove fixed height */
-    padding-top: 0; /* Remove padding top */
+@media (max-width: 768px) {
+  #toggleMenu {
+      display: block; /* Show toggle button on mobile */
   }
 
-  /* Adjust the main content margin */
+  .sidebar {
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: #2b3d66;
+      display: none; /* Hidden by default, toggled with JS */
+      padding-top: 20px;
+      transition: transform 0.3s ease;
+      transform: translateX(-100%);
+  }
+
+  .sidebar.active {
+      display: block;
+      transform: translateX(0);
+  }
+
   main {
-    margin-left: 0; /* Remove margin left */
-    padding: 20px; /* Keep the padding */
+      margin-left: 0; /* No margin on mobile */
+      padding: 80px 20px 20px; /* Adjust for header */
   }
-
-  /* Adjust the image style */
-  .image-style {
-    width: 100%; /* Take up the full width on mobile */
-    margin: 10px; /* Reduce margin */
-  }
-
-  /* Adjust the footer position */
-  footer {
-    position: relative; /* Change from fixed to relative */
-    bottom: auto; /* Remove fixed bottom position */
-  }
-}
-
-/* Tablet devices (max-width: 1024px) */
-@media only screen and (max-width: 1024px) {
-  /* You can add more styles here if needed */
-}
-
-/* Desktop devices (min-width: 1025px) */
-@media only screen and (min-width: 1025px) {
-  /* You can add more styles here if needed */
 }
