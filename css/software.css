@@ -130,7 +130,7 @@ h4{
       position: fixed;
       top: 60px;
       left: 0;
-      width: 70%;
+      width: 150%;
       height: 100vh;
       background-color: #2b3d66;
       display: none; /* Hidden by default, toggled with JS */
