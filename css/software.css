@@ -130,7 +130,7 @@ h4{
       position: fixed;
       top: 60px;
       left: 0;
-      width: 150%;
+      width: 100%;
       height: 100vh;
       background-color: #2b3d66;
       display: none; /* Hidden by default, toggled with JS */
@@ -140,6 +140,7 @@ h4{
   }
 
   .sidebar.active {
+      width: 80%;
       display: block;
       transform: translateX(0);
   }
