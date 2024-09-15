@@ -75,3 +75,28 @@
   function showResults() {
     document.getElementById("resultText").textContent = `You scored ${score} out of ${quizQuestions.length}.`;
   }
+
+
+
+// scripts.js
+
+// Toggle sidebar when the hamburger icon is clicked
+document.getElementById('toggleMenu').addEventListener('click', function() {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.classList.toggle('active'); // Toggle the 'active' class to show/hide the sidebar
+});
+
+// Close the sidebar when any link inside it is clicked (only for mobile)
+const sidebarLinks = document.querySelectorAll('.sidebar ul li a');
+
+sidebarLinks.forEach(link => {
+  link.addEventListener('click', function() {
+      const sidebar = document.querySelector('.sidebar');
+      
+      // Only close sidebar if it's currently active (open) on mobile
+      if (window.innerWidth <= 768 && sidebar.classList.contains('active')) {
+          sidebar.classList.remove('active'); // Remove 'active' class to hide the sidebar
+      }
+  });
+});
+
